@@ -10,6 +10,9 @@
 #include <gtest/gtest.h>
 #include "inversions.h"
 
+// Test cases courtesy of https://github.com/JonSteinn/Kattis-Solutions/blob/5d78ab51f87e2ada9e17a266e797152a67aa1413/src/0-1%20Sequences/Python%203/test.py
+// and comby.dev
+
 TEST(InversionsTest, Test_tdXbRfgtfYzdUUr) {
   std::stringstream s;
   s << "0";
