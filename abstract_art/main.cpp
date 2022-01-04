@@ -6,6 +6,8 @@
 #include "Point.h"
 #include "Polygon.h"
 
+// https://open.kattis.com/problems/abstractart
+
 void ReadInput(std::vector<Polygon>& polygons) {
   int num_polygons;
 
