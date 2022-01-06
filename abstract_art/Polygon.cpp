@@ -3,7 +3,6 @@
 //
 
 #include "Polygon.h"
-#include "Point.h"
 
 double Polygon::Area() const noexcept {
   double area = 0.0;

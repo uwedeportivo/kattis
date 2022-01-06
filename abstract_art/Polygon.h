@@ -14,7 +14,7 @@ class Polygon {
 public:
     explicit Polygon(std::unique_ptr<std::vector<Point>> points) : points_{std::move(points)} {}
 
-    double Area() const noexcept;
+    [[nodiscard]] double Area() const noexcept;
 private:
     std::unique_ptr<std::vector<Point>> points_;
 };
